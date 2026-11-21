@@ -1,0 +1,14 @@
+# Normalize text files to LF so the project behaves the same on Windows,
+# macOS, Linux, and GitHub Actions.
+* text=auto
+
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.txt text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+LICENSE text eol=lf
+
+*.png binary
